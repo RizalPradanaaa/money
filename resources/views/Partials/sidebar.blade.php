@@ -27,14 +27,38 @@
               </li>
               <li class="nav-small-cap">
                 <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-                <span class="hide-menu">Input</span>
+                <span class="hide-menu">Transaksi</span>
               </li>
               <li class="sidebar-item">
-                <a class="sidebar-link" href="/data" aria-expanded="false">
+                <a class="sidebar-link" href="/transaksi/posting" aria-expanded="false">
                   <span>
                     <i class="ti ti-database fs-4"></i>
                   </span>
-                  <span class="hide-menu">Data</span>
+                  <span class="hide-menu">Posting</span>
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <a class="sidebar-link" href="/transaksi/icmonitor" aria-expanded="false">
+                  <span>
+                    <i class="ti ti-database fs-4"></i>
+                  </span>
+                  <span class="hide-menu">IC Monitor</span>
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <a class="sidebar-link" href="/transaksi/saldoawal" aria-expanded="false">
+                  <span>
+                    <i class="ti ti-database fs-4"></i>
+                  </span>
+                  <span class="hide-menu">Saldo Awal</span>
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <a class="sidebar-link" href="/transaksi/jumlahumum" aria-expanded="false">
+                  <span>
+                    <i class="ti ti-database fs-4"></i>
+                  </span>
+                  <span class="hide-menu">jumlah Umum Konversi</span>
                 </a>
               </li>
               <li class="nav-small-cap">
