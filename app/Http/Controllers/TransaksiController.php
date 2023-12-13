@@ -9,8 +9,7 @@ class TransaksiController extends Controller
 
     public function posting()
     {
-        return view('dashboard.index', [
-            'title' => 'All Posts',
+        return view('dashboard.transaksi.posting', [
         ]);
     }
 
