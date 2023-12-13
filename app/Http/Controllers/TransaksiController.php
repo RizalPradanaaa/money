@@ -15,7 +15,7 @@ class TransaksiController extends Controller
 
     public function icmonitor()
     {
-        return view('Dashboard.Berita.inputBerita', []);
+        return view('dashboard.transaksi.icmonitor', []);
     }
     public function saldoawal()
     {
