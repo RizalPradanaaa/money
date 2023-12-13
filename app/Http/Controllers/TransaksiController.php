@@ -19,7 +19,7 @@ class TransaksiController extends Controller
     }
     public function saldoawal()
     {
-        return view('Dashboard.Berita.inputBerita', []);
+        return view('dashboard.transaksi.saldoawal', []);
     }
     public function jurnalumum()
     {
