@@ -54,11 +54,11 @@
                 </a>
               </li>
               <li class="sidebar-item">
-                <a class="sidebar-link" href="/transaksi/jumlahumum" aria-expanded="false">
+                <a class="sidebar-link" href="/transaksi/jurnalumum" aria-expanded="false">
                   <span>
                     <i class="ti ti-database fs-4"></i>
                   </span>
-                  <span class="hide-menu">jumlah Umum Konversi</span>
+                  <span class="hide-menu">Jurnal Umum Konversi</span>
                 </a>
               </li>
               <li class="nav-small-cap">
