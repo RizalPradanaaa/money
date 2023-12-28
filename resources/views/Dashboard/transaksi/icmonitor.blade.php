@@ -43,13 +43,12 @@
                       </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-3">
                     <div class="input-group mb-3">
                         <label class="input-group-text" for="inputGroupSelect01">Status</label>
                         <select class="form-select" id="inputGroupSelect01">
                           <option selected>Posting</option>
                           <option value="1">Belum Posting</option>
-
                         </select>
                       </div>
                 </div>

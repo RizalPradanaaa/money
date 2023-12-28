@@ -63,6 +63,50 @@
               </li>
               <li class="nav-small-cap">
                 <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                <span class="hide-menu">LAPORAN UTAMA</span>
+              </li>
+              <li class="nav-small-cap">
+                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                <span class="hide-menu">LAPORAN UMUM</span>
+              </li>
+              <li class="sidebar-item">
+                <a class="sidebar-link" href="/laporan/umum/neracabuku" aria-expanded="false">
+                  <span>
+                    <i class="ti ti-database fs-4"></i>
+                  </span>
+                  <span class="hide-menu">Neraca Buku</span>
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <a class="sidebar-link" href="/laporan/umum/buku" aria-expanded="false">
+                  <span>
+                    <i class="ti ti-database fs-4"></i>
+                  </span>
+                  <span class="hide-menu">Buku Besar</span>
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <a class="sidebar-link" href="/laporan/umum/jurnal" aria-expanded="false">
+                  <span>
+                    <i class="ti ti-database fs-4"></i>
+                  </span>
+                  <span class="hide-menu">Jurnal</span>
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <a class="sidebar-link" href="/laporan/umum/monitoring" aria-expanded="false">
+                  <span>
+                    <i class="ti ti-database fs-4"></i>
+                  </span>
+                  <span class="hide-menu">Monitoring</span>
+                </a>
+              </li>
+              <li class="nav-small-cap">
+                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                <span class="hide-menu">LAPORAN PROYEK</span>
+              </li>
+              <li class="nav-small-cap">
+                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
                 <span class="hide-menu">AUTH</span>
               </li>
               <li class="nav-small-cap">
