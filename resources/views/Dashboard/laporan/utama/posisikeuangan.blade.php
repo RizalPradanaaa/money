@@ -8,7 +8,7 @@
         <div class="card-body p-4">
             <div class="row d-flex justify-content-between mb-3">
                 <div class="col-6">
-                    <h5 class="card-title fw-semibold mb-4">LAPORAN MONITORING TUTUP BUKU</h5>
+                    <h5 class="card-title fw-semibold mb-4">LAPORAN POSISI KEUANGAN</h5>
                 </div>
                 <div class="col-6 d-flex justify-content-end align-items-center">
                     <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -21,22 +21,54 @@
             </div>
 
             <div class="row">
-            <div class="row">
     <!-- Tipe -->
-    <div class="col-6">
+    <div class="col-3">
         <div class="input-group mb-3">
             <label class="input-group-text" for="tipeSelect">Periode</label>
             <select class="form-select" id="tipeSelect">
                 <option selected></option>
-                <option value="1">2021</option>
-                <option value="2">2022</option>
-                <option value="3">2023</option>
+                <option value="1">Dec 2023</option>
+                <option value="2">Nov 2023</option>
+                <option value="3">Oct 2023</option>
+                <option value="4">Sept 2023</option>
+                <option value="5">Aug 2023</option>
+                <option value="6">Jul 2023</option>
+                <option value="7">Jun 2023</option>
+                <option value="8">May 2023</option>
+                <option value="9">Apr 2023</option>
+                <option value="10">Mar 2023</option>
+                <option value="11">Feb 2023</option>
+                <option value="12">Jan 2023</option>
+                <option value="13">Dec 2022</option>
+                <option value="14">Nov 2022</option>
+                <option value="15">Oct 2022</option>
+                <option value="16">Sept 2022</option>
+                <option value="17">Aug 2022</option>
+                <option value="18">Jul 2022</option>
+                <option value="19">Jun 2022</option>
+                <option value="20">May 2022</option>
+                <option value="21">Apr 2022</option>
+                <option value="22">Mar 2022</option>
+                <option value="23">Feb 2022</option>
+                <option value="24">Jan 2022</option>
+                <option value="25">Dec 2021</option>
+                <option value="26">Nov 2021</option>
+                <option value="27">Oct 2021</option>
+                <option value="28">Sept 2021</option>
+                <option value="29">Aug 2021</option>
+                <option value="30">Jul 2021</option>
+                <option value="31">Jun 2021</option>
+                <option value="32">May 2021</option>
+                <option value="33">Apr 2021</option>
+                <option value="34">Mar 2021</option>
+                <option value="35">Feb 2021</option>
+                <option value="36">Jan 2021</option>
             </select>
         </div>
     </div>
 
     <!-- Pilih Implementor -->
-    <div class="col-6">
+    <div class="col-3">
         <div class="input-group mb-3">
             <label class="input-group-text" for="implementorSelect">Pilih Implementor</label>
             <select class="form-select" id="implementorSelect">
@@ -77,8 +109,27 @@
             </select>
         </div>
     </div>
-</div>
 
+    <!-- Mata Uang -->
+    <div class="col-3">
+        <div class="input-group">
+            <label class="input-group-text" for="currencySelect">Mata Uang</label>
+            <select class="form-select" id="currencySelect">
+                <option selected></option>
+                <option value="rupiah">Rupiah</option>
+                <option value="usd">USD</option>
+            </select>
+        </div>
+    </div>
+</div>
+    <div class="col-2 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Tampilkan Nol</label>
+    </div>
+    <div class="col-2 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Konsolidasi</label>
+    </div>
 
 
 

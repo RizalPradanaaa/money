@@ -48,7 +48,6 @@
                         <select class="form-select" id="inputGroupSelect01">
                           <option selected></option>
                           <option value="1">190000</option>
-
                         </select>
                       </div>
                 </div>
@@ -60,11 +59,9 @@
                         <select class="form-select" id="inputGroupSelect01">
                             <option selected></option>
                             <option value="1">SSR Kota Semarang</option>
-
                         </select>
                     </div>
                 </div>
-
                 <div class="col-6">
                     <div class="input-group mb-3">
                         <label class="input-group-text" for="inputGroupSelect01">Pilih Implementor</label>
@@ -78,46 +75,45 @@
                 </div>
 
                 <div class="row">
-                <div class="col-4">
-                    <div class="input-group">
-                        <label class="input-group-text" for="inputGroupSelect01">Program</label>
-                        <select class="form-select" id="inputGroupSelect01">
-                            <option selected></option>
-                            <option value="eliminasiTB">Eliminasi TB</option>
+                  <div class="col-4">
+                      <div class="input-group">
+                          <label class="input-group-text" for="inputGroupSelect01">Program</label>
+                          <select class="form-select" id="inputGroupSelect01">
+                              <option selected></option>
+                              <option value="eliminasiTB">Eliminasi TB</option>
+                          </select>
+                      </div>
+                  </div>
 
-                        </select>
-                    </div>
-                </div>
+                  <div class="col-3">
+                      <div class="input-group mb-3">
+                          <label class="input-group-text" for="inputGroupSelect01">Donor</label>
+                          <select class="form-select" id="inputGroupSelect01">
+                              <option selected></option>
+                              <option value="1">Global Fund</option>
+                          </select>
+                      </div>
+                  </div>
 
-                <div class="col-3">
-                    <div class="input-group mb-3">
-                        <label class="input-group-text" for="inputGroupSelect01">Donor</label>
-                        <select class="form-select" id="inputGroupSelect01">
-                            <option selected></option>
-                            <option value="1">Global Fund</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div class="input-group">
-                        <label class="input-group-text" for="inputGroupSelect01">Mata Uang</label>
-                        <select class="form-select" id="inputGroupSelect01">
-                            <option selected></option>
-                            <option value="rupiah">Rupiah</option>
-                            <option value="usd">USD</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-4 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Tampilkan Nol</label>
-                </div>
-                <div class="col-4 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Konsolidasi</label>
-                </div>
-            </div>
+                  <div class="col-4">
+                      <div class="input-group">
+                          <label class="input-group-text" for="inputGroupSelect01">Mata Uang</label>
+                          <select class="form-select" id="inputGroupSelect01">
+                              <option selected></option>
+                              <option value="rupiah">Rupiah</option>
+                              <option value="usd">USD</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="col-4 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Tampilkan Nol</label>
+                  </div>
+                  <div class="col-4 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Konsolidasi</label>
+                  </div>
+              </div>
         </div>
       </div>
     </div>

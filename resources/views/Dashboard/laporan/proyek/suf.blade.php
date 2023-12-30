@@ -8,7 +8,7 @@
         <div class="card-body p-4">
             <div class="row d-flex justify-content-between mb-3">
                 <div class="col-6">
-                    <h5 class="card-title fw-semibold mb-4">LAPORAN MONITORING TUTUP BUKU</h5>
+                    <h5 class="card-title fw-semibold mb-4">LAPORAN SUF</h5>
                 </div>
                 <div class="col-6 d-flex justify-content-end align-items-center">
                     <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -19,29 +19,41 @@
                     <button class="btn btn-primary"><i class="ti ti-filter"></i> FILTER</button>
                 </div>
             </div>
-
-            <div class="row">
-            <div class="row">
-    <!-- Tipe -->
-    <div class="col-6">
-        <div class="input-group mb-3">
-            <label class="input-group-text" for="tipeSelect">Periode</label>
-            <select class="form-select" id="tipeSelect">
-                <option selected></option>
-                <option value="1">2021</option>
-                <option value="2">2022</option>
-                <option value="3">2023</option>
-            </select>
+            
+            <div class="container">
+    <div class="row">
+        <!-- Tipe -->
+        <div class="col-3">
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="tipeSelect">Tahun</label>
+                <select class="form-select" id="tipeSelect">
+                    <option selected></option>
+                    <option value="1">2021</option>
+                    <option value="2">2022</option>
+                    <option value="3">2023</option>
+                </select>
+            </div>
         </div>
-    </div>
 
-    <!-- Pilih Implementor -->
-    <div class="col-6">
-        <div class="input-group mb-3">
-            <label class="input-group-text" for="implementorSelect">Pilih Implementor</label>
-            <select class="form-select" id="implementorSelect">
-                <option selected></option>
-                <option value="1">114 - SR JAWA TENGAH</option>
+        <!-- Mata Uang -->
+        <div class="col-3">
+            <div class="input-group">
+                <label class="input-group-text" for="currencySelect">Mata Uang</label>
+                <select class="form-select" id="currencySelect">
+                    <option selected></option>
+                    <option value="rupiah">Rupiah</option>
+                    <option value="usd">USD</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Pilih Implementor -->
+        <div class="col-3">
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="implementorSelect">Pilih Implementor</label>
+                <select class="form-select" id="implementorSelect">
+                    <option selected></option>
+                    <option value="1">114 - SR JAWA TENGAH</option>
                 <option value="2">11401 - SSR BANJARNEGARA </option>
                 <option value="3">11402 - SSR KEBUMEN </option>
                 <option value="4">11403 - SSR BANYUMAS </option>
@@ -73,12 +85,41 @@
                 <option value="30">11430 - SSR TEMANGGUNG</option>
                 <option value="31">11431 - SSR WONOSOBO</option>
                 <option value="32">11434 - SSR MAGELANG </option>
-                <!-- Add more options as needed -->
-            </select>
+                </select>
+            </div>
+        </div>
+
+        <!-- Program -->
+        <div class="col-3">
+            <div class="input-group">
+                <label class="input-group-text" for="programSelect">Program</label>
+                <select class="form-select" id="programSelect">
+                    <option selected></option>
+                    <option value="eliminasiTB">Eliminasi TB</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Donor -->
+    <div class="row">
+        <div class="col-3">
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="donorSelect">Donor</label>
+                <select class="form-select" id="donorSelect">
+                    <option selected></option>
+                    <option value="1">Global Fund</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Konsolidasi -->
+        <div class="col-4 form-check">
+            <input type="checkbox" class="form-check-input" id="konsolidasiCheck">
+            <label class="form-check-label" for="konsolidasiCheck">Konsolidasi</label>
         </div>
     </div>
 </div>
-
 
 
 

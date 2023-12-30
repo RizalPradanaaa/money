@@ -8,7 +8,7 @@
         <div class="card-body p-4">
             <div class="row d-flex justify-content-between mb-3">
                 <div class="col-6">
-                    <h5 class="card-title fw-semibold mb-4">LAPORAN MONITORING TUTUP BUKU</h5>
+                    <h5 class="card-title fw-semibold mb-4">LAPORAN PERUBAHAN ASSET NETTO</h5>
                 </div>
                 <div class="col-6 d-flex justify-content-end align-items-center">
                     <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -19,28 +19,31 @@
                     <button class="btn btn-primary"><i class="ti ti-filter"></i> FILTER</button>
                 </div>
             </div>
+            
+         <div class="row">
+         <div class="row">
+    <!-- Tanggal Awal -->
+    <div class="col-3">
+        <div class="input-group">
+            <span class="input-group-text">Tanggal Awal</span>
+            <input type="date" aria-label="First name" class="form-control">
+        </div>
+    </div>
 
-            <div class="row">
-            <div class="row">
-    <!-- Tipe -->
-    <div class="col-6">
-        <div class="input-group mb-3">
-            <label class="input-group-text" for="tipeSelect">Periode</label>
-            <select class="form-select" id="tipeSelect">
-                <option selected></option>
-                <option value="1">2021</option>
-                <option value="2">2022</option>
-                <option value="3">2023</option>
-            </select>
+    <!-- Tanggal Akhir -->
+    <div class="col-3">
+        <div class="input-group">
+            <span class="input-group-text">Tanggal Akhir</span>
+            <input type="date" aria-label="First name" class="form-control">
         </div>
     </div>
 
     <!-- Pilih Implementor -->
-    <div class="col-6">
+    <div class="col-3">
         <div class="input-group mb-3">
             <label class="input-group-text" for="implementorSelect">Pilih Implementor</label>
             <select class="form-select" id="implementorSelect">
-                <option selected></option>
+            <option selected></option>
                 <option value="1">114 - SR JAWA TENGAH</option>
                 <option value="2">11401 - SSR BANJARNEGARA </option>
                 <option value="3">11402 - SSR KEBUMEN </option>
@@ -73,12 +76,28 @@
                 <option value="30">11430 - SSR TEMANGGUNG</option>
                 <option value="31">11431 - SSR WONOSOBO</option>
                 <option value="32">11434 - SSR MAGELANG </option>
-                <!-- Add more options as needed -->
+            </select>
+        </div>
+    </div>
+
+    <!-- Mata Uang -->
+    <div class="col-3">
+        <div class="input-group">
+            <label class="input-group-text" for="currencySelect">Mata Uang</label>
+            <select class="form-select" id="currencySelect">
+                <option selected></option>
+                <option value="rupiah">Rupiah</option>
+                <option value="usd">USD</option>
             </select>
         </div>
     </div>
 </div>
 
+                    <div class="col-2 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Konsolidasi</label>
+                    </div>
+        </div>
 
 
 
