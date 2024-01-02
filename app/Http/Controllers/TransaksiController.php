@@ -9,8 +9,7 @@ class TransaksiController extends Controller
 
     public function posting()
     {
-        return view('dashboard.transaksi.posting', [
-        ]);
+        return view('dashboard.transaksi.posting', []);
     }
 
     public function icmonitor()
@@ -25,5 +24,7 @@ class TransaksiController extends Controller
     {
         return view('dashboard.transaksi.jurnalumum', []);
     }
+    
+    
 
 }
