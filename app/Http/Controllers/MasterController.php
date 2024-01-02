@@ -8,8 +8,6 @@ class MasterController extends Controller
 {
     public function index()
     {
-        return view('dashboard.master.rekening', [
-
-        ]);
+        return view('dashboard.master.rekening', []);
     }
 }
